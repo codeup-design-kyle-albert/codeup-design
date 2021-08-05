@@ -37,3 +37,34 @@ nav .nav-item {
     position: relative;
     bottom: 6px;
 }
+
+.codeup-title {
+    font-family: Abel, monospace;
+    font-size: 3rem;
+}
+.nav-text-large{
+    font-family: Abel,monospace;
+    font-size: 1.2rem;
+}
+h3{
+    font-size: 40px;
+}
+.circle{
+    border: 12px solid white;
+    line-height: 200px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+.red-circle{
+    background-color: #E6563B;
+}
+.orange-circle{
+    background-color: #EB9D3A;
+}
+.green-circle{
+    background-color: #7CB09C;
+}
+.blue-circle{
+    background-color: #00ABA9;
+}
