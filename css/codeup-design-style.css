@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Anton, SansSerif;
+    src: url(https://fonts.google.com/specimen/Anton?query=anton);
+}
+@font-face {
+    font-family: Abel;
+    src: url(https://fonts.google.com/specimen/Abel#standard-styles);
+}
+h1{
+    font-family: Anton;
+    font-size: 100px;
+}
+nav a {
+    font-size: .75em;
+    color: black;
+}
+.nav-background {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 59px;
+    width: 100%;
+    top: 37px;
+    z-index: -1000;
+}
+nav .nav-item {
+    position: relative;
+    bottom: 6px;
+}
