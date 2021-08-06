@@ -167,8 +167,3 @@ hr{
     width: 25px;
     margin-right: 5px;
 }
-.bottom-sidebar-center{
-    display: flex;
-    /*justify-content: center;*/
-    align-items: center;
-}
