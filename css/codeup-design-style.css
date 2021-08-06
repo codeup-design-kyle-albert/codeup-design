@@ -87,6 +87,10 @@ nav .nav-item {
     font-family: Abel,monospace;
     font-size: 28px;
 }
+.featured-project{
+    font-family: Abel,monospace;
+    font-size: 20px;
+}
 .row > div > img{
     width: 100%;
     border: lightgray solid 15px;
@@ -95,11 +99,11 @@ nav .nav-item {
 
 .smaller-circle {
     font-family: Anton, monospace;
-    font-size: 24px;
-    /*height: 42px;*/
-    /*width: 42px;*/
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     aspect-ratio: 1;
+    /*width: 100%;*/
+    min-width: 30px;
 }
