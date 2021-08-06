@@ -79,6 +79,10 @@ nav .nav-item {
     height: 150px;
     width: 100%;
 }
+.empty-div-sm{
+    height: 100px;
+    width: 100%;
+}
 .selected-work{
     font-family: Abel,monospace;
     font-size: 28px;
@@ -87,4 +91,15 @@ nav .nav-item {
     width: 100%;
     border: lightgray solid 15px;
     border-radius: 10px;
+}
+
+.smaller-circle {
+    font-family: Anton, monospace;
+    font-size: 24px;
+    /*height: 42px;*/
+    /*width: 42px;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1;
 }
