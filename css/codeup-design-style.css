@@ -1,3 +1,10 @@
+@media screen and (min-width: 992px) {
+    .selected-work{
+        float: left;
+        font-size: 10px;
+    }
+}
+
 @font-face {
     font-family: Anton;
     src: url(https://fonts.google.com/specimen/Anton?query=anton);
@@ -6,6 +13,7 @@
     font-family: Abel;
     src: url(https://fonts.google.com/specimen/Abel#standard-styles);
 }
+
 .bg-gray{
     background-color: #F0F0F0;
 }
@@ -50,14 +58,14 @@ nav .nav-item {
     font-size: 1.2rem;
 }
 .circle{
-    border: 12px solid white;
+    border: 8px solid white;
     aspect-ratio: 1;
-    width: 90%;
+    /*width: 100%;*/
 }
 .circle-headers {
     font-family: Anton, monospace;
     color: white;
-    height: 100%;
+    /*height: 100%;*/
     font-size: 40px;
     display: flex;
     align-items: center;
@@ -75,6 +83,10 @@ nav .nav-item {
 .blue-circle{
     background-color: #00ABA9;
 }
+.invisible-circle{
+    background-color: #F0F0F0;
+    border: none;
+}
 .empty-div-med{
     height: 150px;
     width: 100%;
@@ -87,6 +99,10 @@ nav .nav-item {
     font-family: Abel,monospace;
     font-size: 28px;
 }
+.featured-project{
+    font-family: Abel,monospace;
+    font-size: 20px;
+}
 .row > div > img{
     width: 100%;
     border: lightgray solid 15px;
@@ -95,11 +111,15 @@ nav .nav-item {
 
 .smaller-circle {
     font-family: Anton, monospace;
-    font-size: 24px;
-    /*height: 42px;*/
-    /*width: 42px;*/
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     aspect-ratio: 1;
+    /*width: 100%;*/
+    min-width: 30px;
+}
+hr{
+    width: 100%;
+
 }
