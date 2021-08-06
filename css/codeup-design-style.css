@@ -6,7 +6,9 @@
     font-family: Abel;
     src: url(https://fonts.google.com/specimen/Abel#standard-styles);
 }
-
+.bg-gray{
+    background-color: #F0F0F0;
+}
 h1, .location-header {
     font-family: Anton, monospace;
     margin: 25px 0;
@@ -21,11 +23,6 @@ h1 {
     font-size: 48px;
 }
 
-.circle-headers {
-    font-family: Anton, monospace;
-    font-size: 40px;
-    color: white;
-}
 nav a {
     font-size: .75em;
     color: black;
@@ -54,10 +51,17 @@ nav .nav-item {
 }
 .circle{
     border: 12px solid white;
-    line-height: 176px;
-    height: 200px;
-    width: 200px;
-    margin: 0 0 10px 0;
+    aspect-ratio: 1;
+    width: 90%;
+}
+.circle-headers {
+    font-family: Anton, monospace;
+    color: white;
+    height: 100%;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .red-circle{
     background-color: #E6563B;
@@ -70,4 +74,17 @@ nav .nav-item {
 }
 .blue-circle{
     background-color: #00ABA9;
+}
+.empty-div-med{
+    height: 150px;
+    width: 100%;
+}
+.selected-work{
+    font-family: Abel,monospace;
+    font-size: 28px;
+}
+.row > div > img{
+    width: 100%;
+    border: lightgray solid 15px;
+    border-radius: 10px;
 }
