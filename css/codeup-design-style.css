@@ -2,10 +2,16 @@
     .selected-work{
         font-size: 10px;
     }
+    .featured-project{
+        font-size: 15px;
+    }
 }
 @media screen and (max-width: 576px) {
     .selected-work{
         text-align: center;
+    }
+    .featured-project{
+        font-size: 20px;
     }
 }
 
@@ -105,9 +111,9 @@ nav .nav-item {
 }
 .featured-project{
     font-family: Abel,monospace;
-    font-size: 20px;
+    /*font-size: 20px;*/
 }
-.row > div > img{
+.selected-work-image{
     width: 100%;
     border: lightgray solid 15px;
     border-radius: 10px;
@@ -126,4 +132,43 @@ nav .nav-item {
 hr{
     width: 100%;
 
+}
+.sidebar-font{
+    font-family: Anton,monospace;
+    font-size: 20px;
+}
+
+.sidebar-image{
+    height: 50px;
+    width: 50px;
+}
+.sidebar-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 50px;
+}
+.abel-font{
+    font-family: Abel, monospace;
+}
+.sidebar-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.small-sidebar-text{
+    font-size: 12px;
+}
+.bottom-sidebar{
+    padding-left: 50px;
+}
+.twitter-sidebar-image{
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+}
+.bottom-sidebar-center{
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
 }
